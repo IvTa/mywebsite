@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Написати нам</title>
+  <link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="/js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+  <script type="text/javascript" src="js/fancybox/jquery.easing-1.3.pack.js"></script>
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+
+
+</head>
+
+<body>
+
+<div id="fancybox-tmp" style="padding: 40px;"></div>
+    <div id="fancybox-loading" style="display: none;">
+    </div>
+    <div id="fancybox-overlay" style="background-color: rgb(133, 133, 133); opacity: 0.95; cursor: pointer; height: 4681px; display: block;"></div>
+
+    <div id="fancybox-wrap" style="width: 640px; height: auto; top: 281px; left: 112px; display: block;">
+      <div id="fancybox-outer">
+        <div class="fancybox-bg" id="fancybox-bg-n"></div>
+        <div class="fancybox-bg" id="fancybox-bg-ne"></div>
+        <div class="fancybox-bg" id="fancybox-bg-e"></div>
+        <div class="fancybox-bg" id="fancybox-bg-se"></div>
+        <div class="fancybox-bg" id="fancybox-bg-s"></div>
+        <div class="fancybox-bg" id="fancybox-bg-sw"></div>
+        <div class="fancybox-bg" id="fancybox-bg-w"></div>
+        <div class="fancybox-bg" id="fancybox-bg-nw"></div>
+        <div id="fancybox-content" style="border-width: 0px; width: 640px; height: auto;">
+          <div style="width:auto;height:auto;overflow: hidden;position:relative;">
+            <div id="collback_popup" class="reg_block reg_block3">
+
+              <div class="reg_name" id="formname">Написати нам:</div>
+              <form id="collback_form" action="" method="post">
+                <div class="formpad">
+                  <input id="collback_name" class="reg_pole" type="text" placeholder="Ваше ім'я" value="" name="name"><br>
+                  <input id="collback_tel" class="reg_pole" type="text" placeholder="Номер телефону" value="" name="tel"><br>
+                  <input id="collback_email" class="reg_pole" type="text" placeholder="Email" value="" name="email"><br>
+                  <textarea id="collback_text" name="text" placeholder="Текст повідомлення" class="f_pole t_pole2"></textarea>
+                </div>
+
+
+
+
+                <div align="center" class="reg_block2">
+                  <input type="hidden" name="collback" value="1">
+                  <input id="reg_bt" class="jstbt" name="reg_bt" type="submit" value="Відправити">
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+        <a id="fancybox-close" style="display: inline;"></a>
+        <div id="fancybox-title" style="display: none;"></div><a href="javascript:;" id="fancybox-left" style="display: none;"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right" style="display: none;"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div>
+    </div>
+    
+    </body>
+
+</html>

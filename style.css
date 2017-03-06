@@ -157,10 +157,31 @@ a {
   width: 45%;
 }
 
-
 .phc {
+
+  background: url("service.jpg") no-repeat center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.ph {
   display: inline-block;
   margin: 0px 2% 80px 2%;
   text-align: center;
-  width: 45%;
+  width: auto;
 }
+
+.orange {
+  color: #FCA311;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  line-height: 50px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
