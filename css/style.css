@@ -65,7 +65,7 @@ h1 {
 }
 
 h2 {
-  color: #10e0fc;
+  color: #43D1AF;
   font-family: 'Raleway', sans-serif;
   font-size: 42px;
   font-weight: 300;
@@ -173,8 +173,18 @@ a {
   display: inline-block;
   margin: 0px 2% 80px 2%;
   text-align: center;
-  width: auto;
-}
+  width: 100%;
+ }
+ 
+.iframe {
+ width: 1280px;
+ height: 720px;
+ border: 0;
+ text-align: center;
+ margin: 0px 2% 80px 2%;
+ 
+} 
+ 
 
 .orange {
   color: #FCA311;
