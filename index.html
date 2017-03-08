@@ -6,6 +6,7 @@
   <title>STO</title>
   <link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/form.css">
   <link rel="stylesheet" type="text/css" href="fancybox/dist/jquery.fancybox.min.css?v=1488878553" media="screen">
   <style id="fancybox-noscroll" type="text/css">
     .compensate-for-scrollbar,
@@ -89,26 +90,20 @@
     </div>
 
 
-    <div id="form">
+    <div id="form" class="form">
+
+      <h1>Написати нам:</h1>
       <form>
-        
-            <div id="collback_popup" class="reg_block reg_block3">
-              <input id="collback_name" class="reg_pole" type="text" placeholder="Ваше ім'я" value="" name="name"><br>
-              <input id="collback_tel" class="reg_pole" type="text" placeholder="Номер телефону" value="" name="tel"><br>
-              <input id="collback_email" class="reg_pole" type="text" placeholder="Email" value="" name="email"><br>
-              <textarea id="collback_text" name="text" placeholder="Текст повідомлення" class="f_pole t_pole2"></textarea>
-            </div>
-            <div align="center" class="reg_block2">
-              <input type="hidden" name="collback" value="1">
-              <input id="reg_bt" class="jstbt" name="reg_bt" type="submit" value="Відправити">
-            </div>
-
+        <input type="text" name="field1" placeholder="Ваше ім'я" />
+        <input type="tel" name="field2" placeholder="Номер телефону" />
+        <input type="email" name="field3" placeholder="Email" />
+        <textarea name="field4" placeholder="Текст повідомлення"></textarea>
+        <input type="submit" value="Відправити" />
       </form>
-      </div>
+    </div>
 
 
-
-      </div>
+  </div>
 
 
 </body>
